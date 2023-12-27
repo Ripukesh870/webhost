@@ -1,0 +1,109 @@
+.c_container1{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.c_container1 img{
+    width: 36rem;
+}
+
+.c_container2{
+    width: 49%;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.c_i_container{
+    /* border: 2px solid green; */
+    width: 65%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 10px;
+    margin-bottom: 5em;
+    border-radius: 10px;
+    background-color: pink;
+}
+.c_i_container h3{
+    font-size: 36px;
+    margin: .7em;
+}
+.c_standard-basic{
+    margin-top: 1em;
+    width: 80%;
+}
+.c_contact{
+    text-align: left;
+    padding-top: 24px;
+}
+.c_contact div{
+    float: left;
+    margin: 6px;
+}
+.c_buttonBox{
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+.c_btn{
+    display: inline;
+    margin-top: -20px;
+    /* border: 2px solid blue; */
+    width: 10rem;
+    /* justify-content: center; */
+    text-align: left;
+}
+.c_btn button{
+    width: 10rem;
+    font-size: 22px;
+    margin-left: -1.9em;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.c_logo{
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+}
+.c_i_logo{
+    margin: 13px;
+
+}
+
+.C_standard-basic{
+    width: 230px;
+    margin: .4em;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(242, 160, 174);
+    font-size: large;
+    
+}
+
+
+
+.message-box {
+    border: 2px solid black;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    padding: 10px;
+    width: 220px;
+    resize: both;
+    overflow: auto;
+    margin: 0.4em auto;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.message-box:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-color: #4b2f61;
+}
+#message{
+    border-radius: 12px;
+    background-color: rgb(242, 160, 174);
+    margin: 1em .5em;
+    padding: 2px 10px;
+}

@@ -1,0 +1,144 @@
+.L_Top_Container{
+    display: flex;
+}
+
+.l-container{
+    /* border: 2px solid red; */
+    padding: 10px;
+    height: 85vh;
+    background-color: rgb(97, 41, 149);
+    border-radius: 8px;
+    margin: 5px;
+}
+.l_inner_container{
+    border: 2px solid red;
+    background-color: rgb(230, 235, 238);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5em;
+    padding-bottom: 3em;
+    border-radius: 1.6em;
+
+    /* padding: 1em; */
+
+}
+
+.l_inner_container h3{
+    font-size: 36px;
+    margin: .7em;
+}
+.l_div{
+    width: 70%;
+    margin: auto;
+    border-radius: .7em;
+    font-size: 20px;
+    background-color: rgb(255, 254, 254);
+    margin-top: 1.5em;
+}
+.l_input{
+    width: 90%;
+    border: none;
+    padding: 1px 10px;
+    border-radius: 5px .7em .7em 5px;
+    outline: none;
+}
+.l_span{
+   /* margin-top: 5px; */
+}
+
+.l_icon{
+    padding-top: 5px;
+    color: rgb(49, 49, 220);
+    font-size: 30px;
+}
+.l_checkbox{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.l_checkbox div{
+    width: 40%;
+}
+
+.l_checkbox button{
+    background-color:   rgb(215, 224, 230);
+    color: rgb(53, 24, 170);
+    font-weight: bold;
+    font-style: italic;
+    outline: none;
+    cursor: pointer;
+}
+
+.l_btn{
+    border:none;
+    width: 40%;
+    background-color: rgb(51, 51, 132);
+    border-radius: 30px;
+    font-size: 22px;
+    margin: 1.7em;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.l_span{
+    color: rgb(24, 68, 82);
+}
+
+.l_register{
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    background-color: rgb(230, 235, 238);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1062px) {
+    .L_Top_Container{
+        display: inline;
+    }
+    .L_con{
+        /* margin-top: 10vh; */
+    }
+
+    .l-container{
+        /* border: 2px solid red; */
+        width: 100vw;
+        padding: 10px;
+        height: 80vh;
+        background-color: rgb(97, 41, 149);
+        border-radius: 8px;
+        margin: 5px;
+    }
+
+    .l_inner_container{
+        border: 2px solid red;
+        background-color: rgb(230, 235, 238);
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5em;
+        padding-bottom: 3em;
+        border-radius: 1.6em;
+    
+        /* padding: 1em; */
+    
+    }
+    
+    .l_inner_container h3{
+        font-size: 36px;
+        margin: .7em;
+    }
+    .l_div{
+        width: 70%;
+        margin: auto;
+        border-radius: .7em;
+        font-size: 20px;
+        background-color: rgb(255, 254, 254);
+        margin-top: 1.5em;
+    }
+}

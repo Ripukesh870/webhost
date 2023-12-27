@@ -1,0 +1,28 @@
+#notfound{
+    text-align: center;
+    margin-top: 4em;
+}
+.notfound-404 h1{
+    color: #DBDBDB;
+    font-size: 400px;
+}
+.notfound h2{
+    margin-top: -6em;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.notfound p{
+    /* font-size: 1.1em; */
+    text-transform: uppercase;
+}
+
+.Ebutton{
+    background-color: blue;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    
+}

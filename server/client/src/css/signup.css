@@ -1,0 +1,454 @@
+*{
+    margin: 0;padding: 0;
+}
+.S_Top_Container{
+    display: flex;
+}
+.container{
+    width: 49vw;
+}
+.signup-form{
+    /* border:2px solid red; */
+    text-align: center;
+    background: lightblue;
+    border-radius: 20px;
+    height: 80vh;
+    margin-left: 4em;
+}
+.form-title{  
+    color: blue;
+    font-size: 3em;
+    padding: 10px;
+}
+.register-form{
+    /* border: 2px solid green; */
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 1.2em;
+}
+.input{
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+    /* padding-left: 10px; */
+    padding: 0 10px;
+    margin: 0 9px;
+}
+
+span{
+    color: red;
+}
+.s{
+    font-size: medium;
+    color: black;
+}
+.button{
+    border: none;
+    background-color: lightblue;
+    text-decoration-style: dashed;
+    font-style: italic;
+    color: blue;
+}
+.submit{
+    width: 60%;
+    background-color: rgb(17, 17, 179);
+    border: none;
+    border-radius: 30px;
+    color: rgb(244, 244, 244);
+    font-size: 22px;
+    margin: 10px 0;
+    padding: 3px 0;
+}
+
+.S_Image{
+    /* border: 2px solid blue; */
+    width: 49vw;
+    height: 80vh;
+}
+
+
+@media screen and (max-width: 1243px) {
+    .container{
+        /* border: 5px solid red; */
+        padding: 10px ;
+        /* border-radius: 30px; */
+    }
+
+    .signup-form{
+        /* border:2px solid red; */
+        text-align: center;
+        background: lightblue;
+        border-radius: 20px;
+        height: 87vh;
+        margin-left:1em;
+    }
+
+    .form-group{
+        /* border: 1px solid red; */
+        width:  100%;
+    }
+
+    .register-form{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        padding: 5px;
+        margin-top: 1.2em;
+    }
+    .S_Image{
+        /* border: 2px solid blue; */
+        width: 49vw;
+        height: 80vh;
+        margin-top: 50px;
+        padding-top: 40px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 806px) {
+    .S_Top_Container{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+        /* border: 5px solid red; */
+        /* padding: 10px ; */
+        /* border-radius: 30px; */
+    }
+
+    .signup-form{
+        /* border:2px solid red; */
+        text-align: center;
+        background: lightblue;
+        border-radius: 20px;
+        height: 87vh;
+        margin-left:1em;
+    }
+
+    .form-group{
+        /* border: 1px solid red; */
+        width:  100%;
+    }
+
+    .register-form{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        padding: 5px;
+       
+        margin-top: 1.2em;
+    }
+    .S_Image{
+        /* border: 2px solid blue; */
+        width: 100vw;
+        height: auto;
+    }
+    /* .S_Image{
+        display: inline-block;
+    } */
+}
+
+
+
+
+@media screen and (max-width: 588px) {
+    .S_Top_Container{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+        /* border: 5px solid red; */
+        padding: 10px ;
+        /* border-radius: 30px; */
+    }
+
+    .signup-form{
+        /* border:2px solid red; */
+        text-align: center;
+        background: lightblue;
+        border-radius: 20px;
+        height: 87vh;
+        margin-left:1em;
+    }
+
+    .form-group{
+        /* border: 1px solid red; */
+        width:  100%;
+    }
+
+    .register-form{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        padding: 5px;
+       
+        margin-top: 1.2em;
+    }
+    .S_Image{
+        /* border: 2px solid blue; */
+        width: 100vw;
+        margin:10px 5vh;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 404px) {
+    .S_Top_Container{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+        /* border: 5px solid red; */
+        /* padding: 10px ;
+        border-radius: 30px; */
+    }
+
+    .signup-form{
+        /* border:2px solid red; */
+        text-align: center;
+        background: lightblue;
+        border-radius: 20px;
+        height: 87vh;
+        /* margin-left:.5em; */
+    }
+
+    .form-group{
+        /* border: 1px solid red; */
+        width:  100%;
+    }
+
+    .register-form{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        padding: 3px;
+       
+        /* margin-top: 1.2em; */
+    }
+    .S_Image{
+        /* border: 2px solid blue; */
+        width: 100vw;
+        margin:10px 5vh;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .form-title{
+        font-size: larger;
+    }
+    .input,label{
+        font-size: medium;
+    }
+    .s{
+        font-size: medium;
+        color: black;
+    }
+    .button{
+        border: none;
+        background-color: lightblue;
+        text-decoration-style: dashed;
+        font-style: italic;
+        color: blue;
+        font-size: medium;
+    }
+    .submit{
+        width: 60%;
+        background-color: rgb(17, 17, 179);
+        border: none;
+        border-radius: 30px;
+        color: rgb(244, 244, 244);
+        font-size: 18px;
+        margin: 10px 0;
+        padding: 3px 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 337px) {
+    .S_Top_Container{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+        /* border: 5px solid red; */
+        /* padding: 10px ;
+        border-radius: 30px; */
+    }
+
+    .signup-form{
+        /* border:2px solid red; */
+        text-align: center;
+        background: lightblue;
+        border-radius: 20px;
+        height: 87vh;
+        /* margin-left:.5em; */
+    }
+
+    .form-group{
+        /* border: 1px solid red; */
+        width:  100%;
+    }
+
+    .register-form{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        padding: 5px;
+       
+        margin-top: .2em;
+    }
+    .S_Image{
+        /* border: 2px solid blue; */
+        width: 100vw;
+        margin:10px 5vh;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .form-title{
+        font-size: larger;
+    }
+    .input,label{
+        font-size: medium;
+        /* border: 2px solid red; */
+    }
+    .input{
+        border-radius: 10px;
+        border: none;
+        width: 50%;
+        /* padding-left: 10px; */
+        padding: 0 5px;
+        margin: 0 9px;
+    }
+    .s{
+        font-size: small;
+        color: black;
+    }
+    .button{
+        border: none;
+        background-color: lightblue;
+        text-decoration-style: dashed;
+        font-style: italic;
+        color: blue;
+        font-size: small;
+    }
+    .submit{
+        width: 60%;
+        background-color: rgb(17, 17, 179);
+        border: none;
+        border-radius: 30px;
+        color: rgb(244, 244, 244);
+        font-size: medium;
+        margin: 10px 0;
+        padding: 3px 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 276px) {
+    .S_Top_Container{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+        /* border: 5px solid red; */
+        /* padding: 10px ;
+        border-radius: 30px; */
+    }
+
+    .signup-form{
+        /* border:2px solid red; */
+        text-align: center;
+        background: lightblue;
+        border-radius: 20px;
+        height: 87vh;
+        /* margin-left:.5em; */
+    }
+
+    .form-group{
+        /* border: 1px solid red; */
+        width:  100%;
+    }
+
+    .register-form{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        padding: 5px;
+       
+        margin-top: .2em;
+    }
+    .S_Image{
+        /* border: 2px solid blue; */
+        width: 100vw;
+        margin:10px 5vh;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .form-title{
+        font-size: larger;
+    }
+    .input,label{
+        font-size: x-small;
+        /* border: 2px solid red; */
+    }
+    .input{
+        border-radius: 10px;
+        border: none;
+        width: 50%;
+        /* padding-left: 10px; */
+        padding: 0 5px;
+        margin: 0 9px;
+    }
+    .s{
+        font-size: x-small;
+        color: black;
+    }
+    .button{
+        border: none;
+        background-color: lightblue;
+        text-decoration-style: dashed;
+        font-style: italic;
+        color: blue;
+        font-size: x-small;
+    }
+    .submit{
+        width: 60%;
+        background-color: rgb(17, 17, 179);
+        border: none;
+        border-radius: 30px;
+        color: rgb(244, 244, 244);
+        font-size: small;
+        margin: 10px 0;
+        padding: 3px 0;
+    }
+}
+
+

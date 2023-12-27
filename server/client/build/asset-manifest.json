@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69ce06ce.css",
+    "main.js": "/static/js/main.9db87593.js",
+    "static/media/ripukesh.png": "/static/media/ripukesh.bcaaffcfc4bbccaef4e0.png",
+    "static/media/Signpic.svg": "/static/media/Signpic.0baa39710fa17e2948fda80715866b26.svg",
+    "static/media/login.svg": "/static/media/login.7984290ecc4065ca224a36977eb62c26.svg",
+    "static/media/contactus.webp": "/static/media/contactus.4fac29ce80f342c04a76.webp",
+    "index.html": "/index.html",
+    "main.69ce06ce.css.map": "/static/css/main.69ce06ce.css.map",
+    "main.9db87593.js.map": "/static/js/main.9db87593.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69ce06ce.css",
+    "static/js/main.9db87593.js"
+  ]
+}
