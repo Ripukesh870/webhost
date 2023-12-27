@@ -10,9 +10,9 @@ const User=require("../model/userSchema");
 const { default: mongoose } = require("mongoose");
 
 
-router.get('/',(req,res)=>{
-    res.send("Hello world from the server router js");
-})
+// router.get('/',(req,res)=>{
+//     res.send("Hello world from the server router js");
+// })
  // promisease
 
 // router.post('/register',  (req,res)=>{
