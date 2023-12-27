@@ -53,7 +53,7 @@ router.post('/register', async (req,res)=>{
             return res.status(422).json({error:"email allready Exist"});
         } else {
             const user=new User({name,email,phone,work,password,cpassword})
-            console.log(user);
+            // console.log(user);
 
 
             await user.save();
@@ -73,7 +73,7 @@ router.post('/register', async (req,res)=>{
 
 // login route
 router.post('/signin', async (req,res)=>{
-    console.log("Ripukesh");
+    // console.log("Ripukesh");
     try {
         let token;
         const {email,password}=req.body;
@@ -87,7 +87,7 @@ router.post('/signin', async (req,res)=>{
             const isMatch=await bcrypt.compare(password,userLogin.password);
 
             token=await userLogin.generateAuthToken();
-            console.log(token);
+            // console.log(token);
 
             // res.cookie("jwtoken",token,{
             //     expires:new Date(Date.now()+258900000),
@@ -119,12 +119,12 @@ router.post('/signin', async (req,res)=>{
 // })
 
 router.get('/about',authenticate,(req,res)=>{
-    console.log("about page")
+    // console.log("about page")
     res.send(req.rootUser);
 });
 
 router.get('/getdata',authenticate,(req,res)=>{
-    console.log("user data ")
+    // console.log("user data ")
     res.send(req.rootUser);
 })
 
@@ -134,7 +134,7 @@ router.post('/contact',authenticate, async (req,res)=>{
     try {
         const {name,email,phone,message} = req.body;
         if(!name || !email || !phone || !message){
-            console.log("error in contact form");
+            // console.log("error in contact form");
             return res.json({error:"please filled the contact form"});
         } 
         const userContact = await User.findOne({_id:req.userID});
@@ -153,7 +153,7 @@ router.post('/contact',authenticate, async (req,res)=>{
 })
 
 router.get('/logout',(req,res)=>{
-    console.log("hello my logout page");
+    // console.log("hello my logout page");
     res.clearCookie('jwtoken',{path:'/'});
     res.status(200).send("user Logout");
 
